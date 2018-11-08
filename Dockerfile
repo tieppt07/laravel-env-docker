@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER Dao Anh Dung <dung13890@gmail.com>
+MAINTAINER MrFloat <dau.tung.linh@framgia.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
