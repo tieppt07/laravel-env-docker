@@ -1,13 +1,13 @@
-# version: "2"
+version: "2"
 
-# services:
-#   application:
-#     image: debian
-#     volumes:
-#       - ./:/var/www/app
-#   workspace:
-#     image: dung13890/laravel-env
-#     restart: always
-#     volumes_from:
-#       - application
-#     tty: true
+services:
+  application:
+    image: debian
+    volumes:
+      - ./:/var/www/app
+  workspace:
+    image: mrfloat/laravel-env-docker
+    restart: always
+    volumes_from:
+      - application
+    tty: true
