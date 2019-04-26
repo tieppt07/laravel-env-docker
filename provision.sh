@@ -41,6 +41,7 @@ apt-get install -y --force-yes \
     php7.2-intl \
     php7.2-dev \
     php7.2-fpm \
+    php7.2-mongodb \
     php-pear \
     php-memcached \
     php-redis \
